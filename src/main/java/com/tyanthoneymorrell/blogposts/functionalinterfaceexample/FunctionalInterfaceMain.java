@@ -13,9 +13,15 @@ public class FunctionalInterfaceMain {
     
     public static void main(String[] args) {
         
-        AFunctionalInterface functionalInterface = () -> System.out.println("Hello World!");
+        AFunctionalInterface functionalInterface = () -> {
+            
+            System.out.println("Hello World!");
+            
+        };
         
         functionalInterface.sayHelloWorld();
+        
+        functionalInterface.sayGoodbyeWorld();
         
     }
 }

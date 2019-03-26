@@ -13,4 +13,10 @@ public interface AFunctionalInterface {
     
     public void sayHelloWorld();
     
+    default public void sayGoodbyeWorld() {
+        
+        System.out.println("Goodbye world!");
+        
+    }
+    
 }
